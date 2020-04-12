@@ -1,2 +1,2 @@
-# kraken-chess-ui
-kraken-chess website
+# kc-web-ui
+Web UI client for kraken-chess
