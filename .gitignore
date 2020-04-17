@@ -1,0 +1,22 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# other CDK items
+cdk.context.json
+
+# Parcel build directories
+.cache
+.build
+
+# ignore custom build scripts...
+*.bat
+*.sh
+
+# ... but don't ignore cdk-wrapper
+!/cdk-wrapper/**
