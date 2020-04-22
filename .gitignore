@@ -18,5 +18,5 @@ cdk.context.json
 *.bat
 *.sh
 
-# ... but don't ignore cdk-wrapper
-!/cdk-wrapper/**
+# ignore .env
+.env

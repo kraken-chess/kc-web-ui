@@ -18,7 +18,7 @@ export class KcWebUiStack extends cdk.Stack {
     });
 
     // export bucket name
-    new cdk.CfnOutput(this, 'Bucket', { value: s3WebsiteBucket.bucketName });
+    new cdk.CfnOutput(this, 'KrakenChessCFNOutputBucket', { value: s3WebsiteBucket.bucketName });
 
     // deploy local assets
     new s3Deploy.BucketDeployment(this, 'DeployKrakenChessWebsite', {
