@@ -154,6 +154,6 @@ CDK Environment configurations: Account=<your_account_id>, Region=<your_region>
 
 You should see no errors.
 
-# 6. Start [`Contributing`](CONTRIBUTING.md)
+# 6. Start [`Contributing`](CONTRIBUTION.md)
 
 **NOTE:** Please note any issues you find with the setup for any platform in the repository *Issues*
