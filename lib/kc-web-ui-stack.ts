@@ -1,7 +1,6 @@
 import * as cdk from '@aws-cdk/core';
 import * as s3 from '@aws-cdk/aws-s3';
 import * as s3Deploy from '@aws-cdk/aws-s3-deployment';
-import { BucketAccessControl } from '@aws-cdk/aws-s3';
 import { RemovalPolicy } from '@aws-cdk/core';
 
 export class KcWebUiStack extends cdk.Stack {

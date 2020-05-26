@@ -20,3 +20,5 @@ cdk.context.json
 
 # ignore .env
 .env
+
+!website-dist/**
